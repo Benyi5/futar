@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futár adatbázis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    
+    <h1>Futár adatbázis</h1>
+    <div id="container">
+            <header>
+                <h1>Futárok</h1>
+            </header>
+    
+
+            <form>
+            <div class="col-mb-3">
+                <input type="hidden" name="id" id="id">
+            </div>
+            <div class="col-mb-3">
+                <label for="name" class="form-label">Név:</label>
+                <input type="text" name="name" id="nev">
+            </div>
+            <div class="col-mb-3">
+                <label for="tel" class="form-label">Tel: </label>
+                <input type="tel" name="tel" id="tel">
+            </div>
+                <button type="button" id="create" class="btn btn-primary">Futár hozzáadaása</button>
+                <button type="button" id="read" class="btn btn-primary">Futár/ok adatainak lekérdezése</button>
+                <button type="button" id="update" class="btn btn-primary">Futár/ok adatainak módosítása</button>
+                <button type="button" id="delete" class="btn btn-primary">Futár törlése</button>
+        </form>
+        <div id="card" class="row">
+    
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>
